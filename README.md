@@ -3,11 +3,11 @@
 install Terraform on your device before start.  
 [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-check if its installed correctly.
+check if its installed correctly.  
 `terraform version`
 
 ### Create Variable File
-create variable file for credential value.
+create variable file for credential value.  
 `touch terraform.tfvars`
 
 define these variables below.
@@ -26,11 +26,11 @@ public_key_path = "~/.ssh/xxxxxx.pub"
 If you write a new setting in Terraform, you need to initialize it.
 Since the provider is not built in the plain Terraform, the AWS provider will be downloaded this time.
 
-Let's initialize.
+Let's initialize.  
 `terraform init`
 
 ### apply
-apply the code state on AWS.
+apply the code state on AWS.  
 `terraform apply`
 
 Now you can see resources on AWS console!
